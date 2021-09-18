@@ -1,11 +1,10 @@
 import './styles.css'
-import ClickCounter from './ClickCounter'
 
 const App = () => {
 	return (
 		<>
-			<div>sas HI</div>
-			<ClickCounter />
+			<h1>React Boiler Plate</h1>
+			<div>Update Package.json and index.html file.!!</div>
 		</>
 	)
 }
