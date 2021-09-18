@@ -1,13 +1,12 @@
 import './styles.css';
-import IMAGE from './name.png';
-import LOGO from './test.svg';
+import ClickCounter from './clickCOunter';
 
 const App = () => {
     return (
         <>
-            <div>Hello</div>
-            <img src={IMAGE} />
-            <img src={LOGO} />
+            <div>sas HI</div>
+            <ClickCounter />
+
         </>
     )
 }
