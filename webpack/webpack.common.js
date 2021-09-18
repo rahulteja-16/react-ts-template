@@ -44,4 +44,5 @@ module.exports = {
 		// 	patterns: [{ from: '../src', to: '/build' }],
 		// }),
 	],
+	stats: 'errors-only',
 }
