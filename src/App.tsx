@@ -2,7 +2,7 @@ import './styles.css'
 import ClickCounter from './ClickCounter'
 
 const App = () => {
-	const test = "rahul";
+	const name = "rahul"
 	return (
 		<>
 			<div>sas HI</div>
