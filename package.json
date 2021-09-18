@@ -1,0 +1,38 @@
+{
+  "name": "react-ts-template",
+  "version": "1.0.0",
+  "description": "Boiler Plate for React + TS + Webpack 5",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server --config webpack/webpack.config.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulteja-dev/react-ts-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahulteja-dev/react-ts-template/issues"
+  },
+  "homepage": "https://github.com/rahulteja-dev/react-ts-template#readme",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/react": "^17.0.21",
+    "@types/react-dom": "^17.0.9",
+    "html-webpack-plugin": "^5.3.2",
+    "typescript": "^4.4.3",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  }
+}
