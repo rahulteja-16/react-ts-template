@@ -1,6 +1,13 @@
 ## react-ts-template
 
-Boiler Plate for React + TS + Webpack 5
+Boiler Plate for React
+
+-  React
+-  Type Script
+-  Styled Components
+-  React Testing Library with Jest
+-  Eslint
+-  Prettier
 
 ## Download react-ts-template
 

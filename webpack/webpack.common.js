@@ -40,6 +40,9 @@ module.exports = {
 		new HTMLWebpackPlugin({
 			template: path.resolve(__dirname, '..', './src/index.html'),
 		}),
+		new Copy({
+			patterns: [{ from: './public/*' }],
+		}),
 		// new CopyPlugin({
 		// 	patterns: [{ from: '../src', to: '/build' }],
 		// }),
